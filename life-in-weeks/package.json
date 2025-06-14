@@ -1,0 +1,11 @@
+{
+  "name": "life-in-weeks",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run start --prefix server\" \"npm run dev --prefix client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
